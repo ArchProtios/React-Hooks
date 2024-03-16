@@ -1,0 +1,26 @@
+.array {
+    margin-left: 600px;
+    height: 50px;
+    width: 350px;
+    background-color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 35px 10px  black;
+    padding-top: 15px;
+}
+
+.array:first-child {
+    margin-top: 200px;
+}
+
+button {
+    height: 60px;
+    width: 250px;
+    border-radius: 50px;
+    box-shadow: 5px 10px black;
+    margin-left: 650px;
+}
+
+/* button.clicked {
+    margin-top: 300px; 
+} */
