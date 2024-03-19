@@ -3,15 +3,16 @@ import './App.css';
 
 function App() {
 
+  useEffect(() => {
+    document.title = `chats ${count}`
+  })
+  
   const[count,setCount] = useState(0)
-  const change = () => {
-    setCount(count+1)
-  }
 
   return (
     <>
       <p>{ count }</p>
-      <button onClick={change}>Click Here</button>
+      <button onClick={() => {setCount(count+1)}>Click Here</button>
     </>
   );
 }
